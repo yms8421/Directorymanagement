@@ -12,5 +12,10 @@ namespace BilgeAdam.DirectoryManagement.Models
         }
         public List<IPrinciple> Members { get; set; }
         public string Title { get; }
+
+        public override string ToString()
+        {
+            return Title;
+        }
     }
 }

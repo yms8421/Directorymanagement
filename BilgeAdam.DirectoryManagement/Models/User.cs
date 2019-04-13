@@ -10,5 +10,9 @@ namespace BilgeAdam.DirectoryManagement.Models
         {
             
         }
+        public override string ToString()
+        {
+            return UserName;
+        }
     }
 }
